@@ -1,0 +1,88 @@
+.container {
+    position: fixed;
+    width: 100vw;
+    background-color: lightblue;
+    height: 50px;
+    text-align: center;
+    font-weight: 900;
+    font-size: large;
+    padding-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    z-index: 1;
+}
+
+.main {
+    position: relative;
+    /* margin: 5px; */
+    z-index: -1;
+}
+
+.child img {
+    position: absolute;
+    width: 300px;
+    top: 75px;
+    height: 180px;
+
+}
+
+.child2 img {
+    position: absolute;
+    width: 300px;
+    top: 75px;
+    left: 76%;
+}
+
+.child3 img {
+    position: absolute;
+    width: 300px;
+    top: 260px;
+    height: 180px;
+}
+
+.child4 img {
+    position: absolute;
+    width: 400px;
+    left: 34%;
+    top: 330px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.child5 img {
+    position: absolute;
+    width: 300px;
+    top: 260px;
+    left: 76%;
+
+}
+
+.child6 img {
+    position: absolute;
+    width: 300px;
+    top: 500px;
+    height: 180px;
+
+}
+
+.child7 img {
+    position: absolute;
+    width: 300px;
+    top: 500px;
+    height: 180px;
+    left: 76%;
+}
+
+.child8 img {
+    position: absolute;
+    width: 300px;
+    top: 685px;
+    height: 180px;
+}
+
+.child9 img {
+    position: absolute;
+    width: 300px;
+    top: 685px;
+    height: 180px;
+    left: 76%;
+}
